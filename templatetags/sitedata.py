@@ -5,7 +5,7 @@ from django import template
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.template.defaulttags import URLNode, url
 from django.urls import NoReverseMatch, reverse
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.html import conditional_escape
 
 from sitedata.utils import SiteData
